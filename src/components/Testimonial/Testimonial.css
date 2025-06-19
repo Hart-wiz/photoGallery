@@ -1,0 +1,147 @@
+.testimonial-section {
+  width: 100%;
+  padding: 4rem 1rem;
+  background: linear-gradient(to bottom right, rgba(137, 43, 226, 0.1), #fff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #010b35;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.testimonial-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem 2rem;
+  width: 100%;
+  text-align: center;
+  transition: all 0.5s ease;
+  min-height: 260px;
+}
+
+.testimonial-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 9999px;
+  border: 4px solid #010b35;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.testimonial-quote {
+  font-size: 1.125rem;
+  font-style: italic;
+  color: #4a4a4a;
+  margin-bottom: 1rem;
+}
+
+.testimonial-name {
+  font-weight: 600;
+  color: #010b35;
+}
+
+.testimonial-role {
+  font-size: 0.875rem;
+  color: #7d7d7d;
+}
+
+.arrow-btn {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .arrow-btn {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #010b35;
+    color: white;
+    border-radius: 9999px;
+    padding: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    z-index: 10;
+  }
+
+  .arrow-btn:hover {
+    background-color: #892be2;
+  }
+
+  .arrow-btn.prev {
+    left: 0;
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+  .arrow-btn.next {
+    right: 0;
+    transform: translateY(-50%) translateX(50%);
+  }
+}
+
+.testimonial-mobile-controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .testimonial-mobile-controls {
+    display: none;
+  }
+}
+
+.mobile-btn {
+  background-color: #010b35;
+  color: white;
+  border-radius: 9999px;
+  padding: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.mobile-btn:hover {
+  background-color: #010b35;
+}
+
+.testimonial-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #d1d5db;
+  transition: background 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #010b35;
+}

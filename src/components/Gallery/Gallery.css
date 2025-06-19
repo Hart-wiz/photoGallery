@@ -1,0 +1,42 @@
+.gallery {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 90px 300px;
+  display: flex;
+  flex-direction: column;
+}
+.gallery div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.gallery h1 {
+  font-size: 70px;
+  padding: 30px 0;
+}
+.gallery img {
+  width: 300px;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    padding: 40px 20px;
+  }
+
+  .gallery h1 {
+    font-size: 36px;
+    padding: 20px 0;
+  }
+
+  .gallery img {
+    width: 100%;
+    max-width: 150px;
+  }
+
+  .gallery div {
+    gap: 20px;
+  }
+}
