@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import "./form.css"; // Link to the CSS file
+import "./Form.css"; // Link to the CSS file
 
 const Form = () => {
   const [phone, setPhone] = useState("");

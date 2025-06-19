@@ -9,7 +9,7 @@ import {
   FaWhatsapp,
   FaEnvelope,
 } from "react-icons/fa";
-import "./footer.css";
+import "./Footer.css";
 
 export default function Footer() {
   return (
