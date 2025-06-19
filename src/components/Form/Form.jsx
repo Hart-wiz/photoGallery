@@ -7,7 +7,7 @@ const Form = () => {
   const [phone, setPhone] = useState("");
 
   return (
-    <div className="form-container">
+    <div className="form-container" id="contact">
       <section className="form-header">
         <h1>Contact Us Here</h1>
         <p>We will contact you promptly</p>

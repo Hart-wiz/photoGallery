@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="footer-grid">
           {/* Logo + Tagline */}
           <div className="footer-brand">
-            <h2>WeconetData</h2>
+            <h2>MR</h2>
             <p>
               Building the future of the web with scalable, reliable, and secure
               solutions.
