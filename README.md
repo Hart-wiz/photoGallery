@@ -7,9 +7,12 @@ npm install react-icon
 npm install react-phone-input-2
 npm install react-router-dom
 
+npm run dev
+
 or use yarn:
 
 yarn add react-icons
 yarn add react-phone-input-2
 yarn add react-router-dom
+
 # photoGallery
