@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import "./testimonial.css"; // Link to the CSS file
+import "./Testimonial.css"; // Link to the CSS file
 
 const testimonials = [
   {

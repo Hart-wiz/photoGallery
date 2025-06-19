@@ -1,5 +1,5 @@
 import React from "react";
-import "./services.css";
+import "./Services.css";
 import event from "../../assets/event.png";
 import portra from "../../assets/portra.png";
 import photoedit from "../../assets/photo-edit.png";
